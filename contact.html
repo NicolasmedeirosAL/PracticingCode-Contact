@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário de Contato</title>
+  </head>
+  <body>
+    <dl>
+      <fieldset>
+        <legend>Entre em Contato</legend>
+        <br />
+        <br />
+        <label for="subject"
+          ><strong> Tipo de Assunto:</strong> <br />
+          <select name="subject" id="">
+            <option value="subject">Reclamações</option>
+            <option value="subject">Sugestões</option>
+            <option value="subject">Suporte</option>
+            <option value="subject">Compras</option>
+          </select>
+        </label>
+        <br />
+        <br />
+        <label for="name"
+          ><strong>Nome Completo:</strong> <br />
+          <input
+            type="text"
+            name="Nome"
+            id="name"
+            placeholder="Coloque seu nome"
+          />
+        </label>
+        <br />
+        <br />
+        <label for="email"
+          ><strong>E-mail:</strong> <br />
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Coloque seu email"
+        /></label>
+        <br />
+        <br />
+        <label for="message"
+          ><strong>Menssasgem:</strong> <br />
+          <textarea name="message" id="message" cols="30" rows="10"></textarea>
+        </label>
+        <br />
+        <br />
+        <label for="check">
+          <input type="checkbox" name="check" id="check" /> Aceito receber
+          novidades por e-mail
+        </label>
+        <br />
+        <br />
+        <input type="button" value="Enviar" />
+      </fieldset>
+    </dl>
+  </body>
+</html>
